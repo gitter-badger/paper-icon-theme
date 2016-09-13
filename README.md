@@ -1,6 +1,8 @@
 Paper Icon Theme
 ================
 
+[![Join the chat at https://gitter.im/paper-icon-theme/Lobby](https://badges.gitter.im/paper-icon-theme/Lobby.svg)](https://gitter.im/paper-icon-theme/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Paper is a modern freedesktop icon theme whose design is based around the use of bold colours and simple geometric shapes to compose icons. Each icon has been meticulously designed for pixel-perfect viewing.
 
 While it does take some inspiration from the icons in Google's Material Design, some aspects have been adjusted to better suit a desktop environment.
@@ -13,7 +15,17 @@ Paper is licenced under the terms of the [Creative Commons Attribution-ShareAlik
 
 Software that is included is free software; you can redistribute it and/or modify it under the terms of the [GNU Lesser General Public License](https://www.gnu.org/licenses/lgpl-3.0.txt)
 
-###Building Paper
+###Downloading Paper
+
+Download instructions and options are available on the [official site](https://snwh.org/paper/download).
+
+###Install
+
+You can install or update Paper on-demand via the provided `.desktop` file. Moving it to your local applications folder will allow it to appear in your applications menu.
+
+	cp -r org.snwh.paper.icons.desktop ~/.local/share/applications
+
+###Build From Source
 
 You can build and install the Paper icon themes from source:
 
@@ -23,12 +35,6 @@ You can build and install the Paper icon themes from source:
 
 This procedure requires ```autotools``` on your system.
 
-###Installing Paper
-
-You may install Paper by running the provided installation script:
-
-    ./install-icon-theme.sh
-    
 ##Missing Icons & Requests
 
 When filing an icon request or reporting a missing icon, please take care in providing the following useful information: 
@@ -38,3 +44,7 @@ When filing an icon request or reporting a missing icon, please take care in pro
  - A short description of the application or software that you are requesting an icon for.
 
 Note: some software ships hardcoded icons, meaning when you install icons are not placed in the system-wide directory `/usr/share/icons` which makes them unthemeable.
+
+##Help & Support
+
+You can visit the support channel `#Paper-Chat` on Freenode for questions and discussion.
